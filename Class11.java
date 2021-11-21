@@ -6,11 +6,11 @@ interface Test{
  public double calcu();
 }
 class CStu implements Data,Test{
- protected String id; // ¾Ç¸¹
- protected String name; // ©m¦W
- protected int mid; // ´Á¤¤¦Ò¦¨ÁZ
- protected int finl; // ´Á¥½¦Ò¦¨ÁZ
- protected int common; // ¥­®É¦¨ÁZ
+ protected String id; // å­¸è™Ÿ
+ protected String name; // å§“å
+ protected int mid; // æœŸä¸­è€ƒæˆç¸¾
+ protected int finl; // æœŸæœ«è€ƒæˆç¸¾
+ protected int common; // å¹³æ™‚æˆç¸¾
 
 public CStu(String s1,String s2,int m,int f,int c){
  id=s1;
@@ -24,14 +24,14 @@ public void show(){
  showScore();
 }
 public void showScore(){
- System.out.println("´Á¤¤¦Ò¦¨ÁZ:"+mid);
- System.out.println("´Á¥½¦Ò¦¨ÁZ:"+finl);
- System.out.println("¥­®É¦¨ÁZ:"+common);
- System.out.println("¾Ç´Á¦¨ÁZ:"+calcu());
+ System.out.println("æœŸä¸­è€ƒæˆç¸¾:"+mid);
+ System.out.println("æœŸæœ«è€ƒæˆç¸¾:"+finl);
+ System.out.println("å¹³æ™‚æˆç¸¾:"+common);
+ System.out.println("å­¸æœŸæˆç¸¾:"+calcu());
 }
 public void showData(){
- System.out.println("¾Ç¸¹:"+id);
- System.out.println("©m¦W:"+name);
+ System.out.println("å­¸è™Ÿ:"+id);
+ System.out.println("å§“å:"+name);
 }
 public double calcu(){
  return (mid*0.3+finl*0.3+common*0.4);
@@ -45,9 +45,9 @@ public static void main(String args[]){
 }
 }
 
-//¾Ç¸¹:940001
-//©m¦W:Fiona
-//´Á¤¤¦Ò¦¨ÁZ:90
-//´Á¥½¦Ò¦¨ÁZ:92
-//¥­®É¦¨ÁZ:85
-//¾Ç´Á¦¨ÁZ:88.6
+//å­¸è™Ÿ:940001
+//å§“å:Fiona
+//æœŸä¸­è€ƒæˆç¸¾:90
+//æœŸæœ«è€ƒæˆç¸¾:92
+//å¹³æ™‚æˆç¸¾:85
+//å­¸æœŸæˆç¸¾:88.6
