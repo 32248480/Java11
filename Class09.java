@@ -1,14 +1,14 @@
 interface Math{
  public void show();
- public void add(int a,int b); // ­pºâ a+b
- public void sub(int a,int b); // ­pºâ a-b
- public void mul(int a,int b); // ­pºâ a*b
- public void div(int a,int b); // ­pºâ a/b
+ public void add(int a,int b); // è¨ˆç®— a+b
+ public void sub(int a,int b); // è¨ˆç®— a-b
+ public void mul(int a,int b); // è¨ˆç®— a*b
+ public void div(int a,int b); // è¨ˆç®— a/b
 }
 interface AdvanceMath{
- public void mod(int a,int b); // ­pºâ a%b
- public void fac(int a); // ­pºâ a!
- public void pow(int a,int b); // ­pºâ a^b
+ public void mod(int a,int b); // è¨ˆç®— a%b
+ public void fac(int a); // è¨ˆç®— a!
+ public void pow(int a,int b); // è¨ˆç®— a^b
 }
 class Compute implements Math,AdvanceMath{
  public int ans;
@@ -45,11 +45,11 @@ public class Main{
 public static void main(String args[]){
  Compute cmp=new Compute();
  cmp.mul(3,5);
- cmp.show(); // ¦¹¦æ·|¦^À³"ans=15"¦r¦ê
+ cmp.show(); // æ­¤è¡Œæœƒå›žæ‡‰"ans=15"å­—ä¸²
  cmp.mod(14,5);
- cmp.show(); // ¦¹¦æ·|¦^À³"ans=4"¦r¦ê
+ cmp.show(); // æ­¤è¡Œæœƒå›žæ‡‰"ans=4"å­—ä¸²
  cmp.fac(5);
- cmp.show(); // ¦¹¦æ·|¦^À³"ans=120"¦r¦ê
+ cmp.show(); // æ­¤è¡Œæœƒå›žæ‡‰"ans=120"å­—ä¸²
 }
 }
 
