@@ -2,10 +2,10 @@ interface Show_ans{
  public void show();
 }
 interface Math extends Show_ans{
- public void add(int a,int b); // ­pºâ a+b
- public void sub(int a,int b); // ­pºâ a-b
- public void mul(int a,int b); // ­pºâ a*b
- public void div(int a,int b); // ­pºâ a/b
+ public void add(int a,int b); // è¨ˆç®— a+b
+ public void sub(int a,int b); // è¨ˆç®— a-b
+ public void mul(int a,int b); // è¨ˆç®— a*b
+ public void div(int a,int b); // è¨ˆç®— a/b
 }
 
 class Compute implements Math{
@@ -29,8 +29,8 @@ public void show(){
 public class Main{
 public static void main(String args[]){
  Compute cmp=new Compute();
- cmp.mul(3,5); // ­pºâ 3*5
- cmp.show(); // ¦¹¦æ·|¦^À³"ans=15"¦r¦ê
+ cmp.mul(3,5); // è¨ˆç®— 3*5
+ cmp.show(); // æ­¤è¡Œæœƒå›žæ‡‰"ans=15"å­—ä¸²
 }
 }
 
