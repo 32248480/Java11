@@ -3,10 +3,10 @@ abstract class Math{
 public void show(){
  System.out.println("ans="+ans);
 }
-public abstract void add(int a,int b); // ­pºâ a+b
-public abstract void sub(int a,int b); // ­pºâ a-b
-public abstract void mul(int a,int b); // ­pºâ a*b
-public abstract void div(int a,int b); // ­pºâ a/b
+public abstract void add(int a,int b); // è¨ˆç®— a+b
+public abstract void sub(int a,int b); // è¨ˆç®— a-b
+public abstract void mul(int a,int b); // è¨ˆç®— a*b
+public abstract void div(int a,int b); // è¨ˆç®— a/b
 }
 class Compute extends Math{
 public void add(int a,int b){
@@ -25,8 +25,8 @@ public void div(int a,int b){
 public class Main{
 public static void main(String args[]){
  Compute cmp=new Compute();
- cmp.mul(3,5); // ­pºâ 3*5
- cmp.show(); // ¦¹¦æ·|¦^À³"ans=15"¦r¦ê
+ cmp.mul(3,5); // è¨ˆç®— 3*5
+ cmp.show(); // æ­¤è¡Œæœƒå›žæ‡‰"ans=15"å­—ä¸²
 }
 }
 
