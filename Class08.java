@@ -20,7 +20,7 @@ public class Main{
 public static void main(String args[]){
  Cccc cc=new Cccc();
  cc.set(5);
- cc.show(); // ¦L¥X num=5
+ cc.show(); // Â¦LÂ¥X num=5
 }
 }
 
